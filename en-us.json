@@ -1,0 +1,181 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "puzzle drizzle",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "enough for now",
+                        "enough for today"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "get started",
+                        "help me"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "see you later",
+                        "bye bye"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "StartGameIntent",
+                    "slots": [],
+                    "samples": [
+                        "let's start",
+                        "lets start",
+                        "lets play",
+                        "play",
+                        "let's play"
+                    ]
+                },
+                {
+                    "name": "LevelIntent",
+                    "slots": [
+                        {
+                            "name": "difficulty",
+                            "type": "level"
+                        }
+                    ],
+                    "samples": [
+                        "level {difficulty}",
+                        "{difficulty} level",
+                        "{difficulty} "
+                    ]
+                },
+                {
+                    "name": "AnswerIntent",
+                    "slots": [
+                        {
+                            "name": "answer",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{answer} is my answer",
+                        "{answer}",
+                        "my answer {answer}",
+                        "my answer is {answer}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": [
+                        "next question",
+                        "next"
+                    ]
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": [
+                        "repeat question",
+                        "say one more time",
+                        "repeat",
+                        "repeat it"
+                    ]
+                },
+                {
+                    "name": "MagicWorldIntent",
+                    "slots": [],
+                    "samples": [
+                        "let's play magic world",
+                        "lets play magic world",
+                        "world",
+                        "magic",
+                        "magic world"
+                    ]
+                },
+                {
+                    "name": "StartMagicIntent",
+                    "slots": [],
+                    "samples": [
+                        "magic trick",
+                        "another magic",
+                        "another trick",
+                        "start",
+                        "magic start",
+                        "start magic"
+                    ]
+                },
+                {
+                    "name": "TeachMagicIntent",
+                    "slots": [],
+                    "samples": [
+                        "teach me again",
+                        "teach me this trick",
+                        "teach me this",
+                        "teach me"
+                    ]
+                },
+                {
+                    "name": "ByNumberIntent",
+                    "slots": [
+                        {
+                            "name": "trick",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "teach me trick  {trick}",
+                        "teach trick {trick}",
+                        "teach magic trick {trick}",
+                        "teach {trick}",
+                        "teach me {trick}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "level",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "hard",
+                                "synonyms": [
+                                    "harder"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "medium",
+                                "synonyms": [
+                                    "not easy"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "easy",
+                                "synonyms": [
+                                    "too easy",
+                                    "easier"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "answerSlot",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "sravan"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

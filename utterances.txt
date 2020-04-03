@@ -1,0 +1,122 @@
+StartGameIntent
+
+
+let's start
+lets start
+lets play
+play
+let's play
+
+__________________________
+
+LevelIntent
+
+
+level {difficulty}
+{difficulty} level
+{difficulty}
+
+{difficulty} means easy or medium or hard
+
+__________________________
+
+AnswerIntent
+
+
+{answer} is my answer
+{answer}
+my answer {answer}
+my answer is {answer}
+
+{answer} means AMAZON.NUMBER
+
+__________________________
+
+MagicWorldIntent
+
+
+let's play magic world
+lets play magic world
+world
+magic
+magic world
+
+__________________________
+
+StartMagicIntent
+
+
+magic trick
+another magic
+another trick
+start
+magic start
+start magic
+
+__________________________
+
+TeachMagicIntent
+
+
+teach me again
+teach me this trick
+teach me this
+teach me
+
+__________________________
+
+ByNumberIntent
+
+
+teach me trick  {trick}
+teach trick {trick}
+teach magic trick {trick}
+teach {trick}
+teach me {trick}
+
+{trick} means AMAZON.NUMBER
+
+__________________________
+
+AMAZON.CancelIntent
+
+
+enough for now
+enough for today
+
+___________________________
+
+AMAZON.HelpIntent
+
+get started
+help me
+help
+
+____________________________
+
+AMAZON.StopIntent
+
+
+see you later
+bye bye
+
+____________________________
+
+AMAZON.NextIntent
+
+
+next question
+next
+
+____________________________
+
+AMAZON.RepeatIntent
+
+
+repeat question
+say one more time
+repeat
+repeat it
+
+____________________________
+
